@@ -1,3 +1,13 @@
+## About this fork
+
+This is a development fork of [ImagingDataCommons/pyplastimatch](https://github.com/ImagingDataCommons/pyplastimatch), a Python wrapper for selected Plastimatch operations. It helps bring volumetric-image conversion, resampling, and evaluation into Python scripts and notebooks while relying on a separately installed Plastimatch executable.
+
+This fork contributed [upstream PR #15](https://github.com/ImagingDataCommons/pyplastimatch/pull/15), which propagates conversion and resampling process failures. It was **merged upstream on 14 October 2026**. The linked record documents the change; consult upstream revisions and releases when selecting the version to use.
+
+Follow the [official README](https://github.com/ImagingDataCommons/pyplastimatch#readme) for wrapper installation, Plastimatch dependencies, and notebook examples. [Compare the default branch with upstream](https://github.com/jdotc1/pyplastimatch/compare/ImagingDataCommons:main...jdotc1:main). The original documentation below retains the wrapper's scope, external requirements, and project attribution.
+
+---
+
 # PyPlastimatch
 
 PyPlastimatch is a python wrapper for [Plastimatch](http://plastimatch.org/), an ITK-based open source software designed for volumetric medical image processing and radiation therapy applications.
